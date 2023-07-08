@@ -11,15 +11,16 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
   <script src="./scripts/script.js" defer></script>
   <script src="./scripts/components/CardSkills/index.js" defer></script>
+  <script src="./scripts/components/photo/MyPhoto.js" defer></script>
   <link rel="shotcut icon" href="./images/icon-web.png">
-  <title>Portfólio</title>
+  <title>Portfolio</title>
 </head>
 <body>
   <header class="header-navegation">
     <figure>
       <img 
         src="./images/652581_code_command_develop_javascript_language_icon.png" 
-        alt="Minha foto"
+        alt="JavaScript"
       >
       <figcaption>Lucas Miller</figcaption>
     </figure>
@@ -77,11 +78,12 @@
         </a>
       </div>
   
-      <section class="program-section-right">
+      <!-- <section class="program-section-right">
         <figure>
           <img src="./images/icon-web.png" alt="Minha foto">
         </figure>
-      </section>
+      </section> -->
+      <my-photo />
     </div>
 
     <section class="section-my-skills">
@@ -149,6 +151,11 @@
           </p>
         </div>
       </div>
+    </section>
+
+    <section class="about-me">
+      <my-photo />
+
     </section>
   </main>
 

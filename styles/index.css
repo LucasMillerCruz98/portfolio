@@ -134,7 +134,7 @@
   color: #fff;
 }
 
-.content-main .program-section-right figure img {
+/* .content-main .program-section-right figure img {
   width: 44rem;
   border-radius: 2rem;
 }
@@ -148,7 +148,7 @@
   .content-main .program-section-right figure {
     margin: 1rem 0;
   }
-}
+} */
 
 .section-my-skills {
   display: flex;
